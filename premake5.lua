@@ -21,9 +21,6 @@ project "ImGui"
 		"imstb_textedit.h",
 		"imstb_truetype.h",
 		"imgui_demo.cpp",
-
-        "backends/imgui_impl_glfw.h",
-        "backends/imgui_impl_glfw.cpp"
 	}
 
 	filter "system:linux"
