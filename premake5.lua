@@ -22,6 +22,11 @@ project "ImGui"
 		"imstb_truetype.h",
 		"imgui_demo.cpp",
 	}
+	
+	defines
+	{
+        "IMGUI_USE_WCHAR32"
+	}
 
 	filter "system:linux"
 		pic "On"
