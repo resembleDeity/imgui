@@ -43,3 +43,9 @@ project "ImGui"
 		runtime "Release"
 		optimize "on"
         symbols "off"
+		defines
+		{
+			"NDEBUG",
+			"IMGUI_DISABLE_DEMO_WINDOWS",
+			"IMGUI_DISABLE_DEBUG_TOOLS",
+		}
